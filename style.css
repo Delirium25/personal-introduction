@@ -77,6 +77,7 @@
   flex-direction: row;
   justify-content: center;
   font-size: medium;
+
 }
 
 .v-text-left {
@@ -85,11 +86,14 @@
 
 .v-text-right {
   width: 50%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .v-question {
   font-weight: 600;
   margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .v-answer {
