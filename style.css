@@ -1,0 +1,93 @@
+/* --- start of CSS reset --- */
+/* --
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+  
+  /* --- end of CSS reset --- */
+
+.v-picture {
+  background-color: blue;
+  width: 30%;
+  float: left;
+  height: max-content;
+  padding: 20px;
+}
+
+.v-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.v-content {
+  background-color: red;
+  width: 70%;
+  padding: 20px;
+}
+
+.v-title {
+  background-color: palegreen;
+}
+
+.v-page {
+  background-color: #ffeedf;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  height: max-content;
+
+}
+
+.v-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.v-text-left {
+  width: 50%;
+}
+
+.v-text-right {
+  width: 50%;
+}
+
+.v-question {
+  font-weight: 600;
+}
+
+.v-answer {
+  font-style: italic;
+}
