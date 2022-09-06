@@ -38,7 +38,7 @@
   /* --- end of CSS reset --- */
 
 .v-picture {
-  background-color: blue;
+
   width: 30%;
   float: left;
   height: max-content;
@@ -51,29 +51,32 @@
 }
 
 .v-content {
-  background-color: red;
   width: 70%;
   padding: 20px;
 }
 
 .v-title {
-  background-color: palegreen;
+  font-size: x-large;
 }
 
 .v-page {
-  background-color: #ffeedf;
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 20px;
+  margin: 20px;
   height: max-content;
-
+  font-family: Rubik;
+  background-color: #ECF0F1;
+  box-shadow: 10px 10px 8px gray;
+  
 }
 
 .v-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-size: medium;
 }
 
 .v-text-left {
@@ -86,6 +89,7 @@
 
 .v-question {
   font-weight: 600;
+  margin-top: 10px;
 }
 
 .v-answer {
