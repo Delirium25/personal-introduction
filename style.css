@@ -71,7 +71,7 @@
   height: max-content;
   font-family: Crimson Text;
   font-size: large;
-  background-color: #ECF0F1;
+  background-color:#f4f2f5;
   box-shadow: 10px 10px 8px gray;
   
 }
@@ -90,8 +90,6 @@
 
 .v-text-right {
   width: 50%;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 .v-question {
@@ -103,4 +101,34 @@
 
 .v-answer {
   font-style: italic;
+}
+
+.glow {
+  
+ 
+  text-shadow: 0 0 20px #a7a7a7, 0 0 30px #a7a7a7, 0 0 40px #a7a7a7, 0 0 50px #a7a7a7, 0 0 60px #a7a7a7, 0 0 70px #a7a7a7, 0 0 80px #a7a7a7;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e5e5e5, 0 0 40px #e5e5e5, 0 0 50px #e5e5e5, 0 0 60px #e5e5e5, 0 0 70px #e5e5e5;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #a7a7a7, 0 0 30px #a7a7a7, 0 0 40px #a7a7a7, 0 0 50px #a7a7a7, 0 0 60px #a7a7a7, 0 0 70px #a7a7a7, 0 0 80px #a7a7a7;
+  }
+}
+.v-footer{
+  background-color:#afadad;
+  position:relative;
+  height:30px;
+  width:100%;
+  
+}
+
+.v-header{
+  background-color:#afadad;
+  position:relative;
+  height:30px;
+  width:100%; 
+
 }
